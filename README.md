@@ -1,6 +1,6 @@
 # MINIPROJECT
 
-******AI-Driven Acoustic Surveillance: Scream Detection for Crime Prevention******
+AI-Driven Acoustic Surveillance: Scream Detection for Crime Prevention
 
 **AIM:**
 
@@ -276,4 +276,4 @@ PREDICTION ACCURACY :
 
 Results
 
-Thus,the system  Achieves 85-95% accuracy in scream detection.
+Thus,the system successfully predicts the scream leading to prevent further crimes.
