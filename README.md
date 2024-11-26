@@ -1,26 +1,26 @@
 # MINIPROJECT
 
-AI-Driven Acoustic Surveillance: Scream Detection for Crime Prevention
+# AI-Driven Acoustic Surveillance: Scream Detection for Crime Prevention
 
-**AIM:**
+# AIM:
 
  To enhance public safety by detecting human screams in real-time. Utilizing Machine Learning (ML) and Deep Learning (DL) techniques, the system differentiates screams from other environmental sounds, providing rapid alerts to authorities to potentially prevent crimes or ensure quicker responses.
 
-** Features**
+# Features
 
 Real-Time Detection: Continuous monitoring of public spaces for acoustic distress signals.
 High Accuracy: Utilizes advanced ML and DL models for reliable scream classification.
 Noise Robustness: Processes audio to minimize background noise and enhance detection in complex environments.
 Immediate Alerts: Sends notifications to law enforcement and emergency services upon detection.
 
-**Problem Statement**
+# Problem Statement
  
 Traditional crime detection systems often rely on visual surveillance and human intervention, overlooking critical audio cues like screams. This project addresses:
 
 Limitations of Existing Systems: Reactive rather than proactive.
 Screams as Indicators: Associating screams with danger to provide actionable insights.
 
-ALGORITHM :
+# ALGORITHM :
 
 1.Data Collection
 Datasets: Audio datasets including screams, background noise, and other environmental sounds.
@@ -31,13 +31,12 @@ Audio segmentation for frame-level analysis.
 Extraction of features like Mel-Frequency Cepstral Coefficients (MFCCs).
 3.ML Approach
 Algorithms: SVM, Random Forest, KNN.
-
 Features: Pitch, amplitude, frequency, and STFT.
 4.DL Approach
 CNN: For spectrogram analysis.
 RNN/LSTM: Capturing sequential audio patterns.
 
-PROGRAM:
+# PROGRAM:
 ```
 import pandas as pd
 import numpy as np
@@ -261,9 +260,9 @@ result = pd.DataFrame(preds)
 result.to_csv("UrbanSound8kResults.csv")
 
 ```
-**OUTPUT:**
+# OUTPUT:
 
-INPUT FREQUENCY IMAGES
+AUDIO FREQUENCY :
 
 ![Screenshot 2024-11-26 103235](https://github.com/user-attachments/assets/0062737d-e19a-40e9-be0e-17afcf53b304)
 
@@ -274,6 +273,6 @@ PREDICTION ACCURACY :
 ![Screenshot 2024-11-26 103442](https://github.com/user-attachments/assets/4f9d51ef-65e5-4a04-8a3e-68a2d3c4af7b)
 
 
-Results
+# Results
 
 Thus,the system successfully predicts the scream leading to prevent further crimes.
