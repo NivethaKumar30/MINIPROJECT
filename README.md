@@ -1,6 +1,6 @@
 # MINIPROJECT
 
-**AI-Driven Acoustic Surveillance: Scream Detection for Crime Prevention**
+******AI-Driven Acoustic Surveillance: Scream Detection for Crime Prevention******
 
 **AIM:**
 
