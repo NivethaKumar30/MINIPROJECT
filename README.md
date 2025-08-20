@@ -21,17 +21,22 @@ Screams as Indicators: Associating screams with danger to provide actionable ins
 
 # ALGORITHM :
 
-1.Data Collection
+**1.Data Collection**
+
 Datasets: Audio datasets including screams, background noise, and other environmental sounds.
 Augmentation: Pitch shifting, time stretching, and noise addition to improve robustness.
-2.Preprocessing
+
+**2.Preprocessing**
+
 Noise reduction using audio filters.
 Audio segmentation for frame-level analysis.
 Extraction of features like Mel-Frequency Cepstral Coefficients (MFCCs).
-3.ML Approach
+
+**3.ML Approach**
 Algorithms: SVM, Random Forest, KNN.
 Features: Pitch, amplitude, frequency, and STFT.
-4.DL Approach
+
+**4.DL Approach**
 CNN: For spectrogram analysis.
 RNN/LSTM: Capturing sequential audio patterns.
 
