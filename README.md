@@ -1,7 +1,6 @@
 # MINIPROJECT
 
-# AI-Driven Acoustic Surveillance: Scream Detection for Crime Prevention
-
+# AI-Driven Acoustic Surveillance System
 # AIM:
 
  To enhance public safety by detecting human screams in real-time. Utilizing Machine Learning (ML) and Deep Learning (DL) techniques, the system differentiates screams from other environmental sounds, providing rapid alerts to authorities to potentially prevent crimes or ensure quicker responses.
