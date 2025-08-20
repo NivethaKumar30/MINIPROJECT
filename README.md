@@ -33,10 +33,12 @@ Audio segmentation for frame-level analysis.
 Extraction of features like Mel-Frequency Cepstral Coefficients (MFCCs).
 
 **3.ML Approach**
+
 Algorithms: SVM, Random Forest, KNN.
 Features: Pitch, amplitude, frequency, and STFT.
 
 **4.DL Approach**
+
 CNN: For spectrogram analysis.
 RNN/LSTM: Capturing sequential audio patterns.
 
